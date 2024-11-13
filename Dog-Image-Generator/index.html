@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Here are Some Images of Dogs</h1>
+    </br></br>
+
+    <form id="myForm">
+        <label for="breed"> Dog:</label>
+        <input type="text" id="breed" placeholder="https://dog.ceo/api/breeds/image/random"/>
+        <button onclick="fetchDogImages()" id="fetch">Fetch</button>
+    </form>
+
+    </br></br>
+    <div id="imgs">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

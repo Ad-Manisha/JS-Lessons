@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+
+#imgs{
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#imgs img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 0 0 8px rgba(0, 00, 0.5);
+}
+
+#fetch{
+    width:70px;
+    height:20px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
